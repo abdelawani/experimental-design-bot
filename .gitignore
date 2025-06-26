@@ -1,0 +1,19 @@
+# ─── Environment ─────────────────────────────────────────────────────
+# dotenv files
+.env
+.env.*
+
+# ─── Python ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ─── FAISS / LFS ────────────────────────────────────────────────────
+# these files are tracked by Git LFS—no need to commit them locally
+faiss.index
+faiss_meta.pkl
+
+# ─── Editors & OS ───────────────────────────────────────────────────
+.vscode/
+*.swp
+.DS_Store
